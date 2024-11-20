@@ -1,0 +1,78 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.json-editor {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f4f4f4;
+  height: 590px;
+}
+
+.json-editor textarea {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  font-family: monospace;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-container {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  height: 650px;
+  overflow-y: auto;
+}
+
+h1, h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
